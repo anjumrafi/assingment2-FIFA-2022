@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+header , main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wraper {
+    background-color: #1E1E1E;
+    /* height: 446px; */
+    width: 80%;
+    /* margin-top: 50px; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.text__ariya , .imgPart {
+    height: 350px;
+    color: white;
+    width: 300px;
+}
+.world{
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: 800;
+    margin: 20px;
+}
+.topP {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 15px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.watch {
+    border: 0px;
+    background-color: #DD0000;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+}
+
+.main_waraper {
+    height: 600px;
+    width: 80%;
+}
+.menu {
+    height: 250px;
+    width: 200px;
+    background-color: #161616;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.mathch {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.main_waraper {
+    height: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 30px;
+    /* display: flex; */
+}
+.menu-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.unic{
+    background-color: #DD0000;
+    color: #ffffff;
+}
+.par-match {
+    border: 2px solid rgba(128, 128, 128, 0.311);
+    /* height: 300px;
+    width: 290px; */
+}
+.blog-img {
+    height: 50%;
+    width: 100%;
+}
+.transfar {
+    margin-left: 5px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.blog-p {
+    font-size: 11px;
+    line-height: 13px;
+}
+span {
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.logo-unic {
+    float: right;
+}
+.list-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:
+    #161616 ;
+    color: white;
+    margin-top: 40px;
+}
+.gol {
+    display: inherit;
+    justify-content: center;
+}
+hr {
+    
+    border: 1px solid gray;
+    
+    width: 80%;
+}
+.i {
+    padding: 13px;
+    font-size: 25px;
+    color: white;
+}
+.tab-btn {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+@media only screen and (max-width: 688px) { 
+    .wraper{
+        flex-direction: column;
+    }
+    .wraper{
+        align-items: center;
+    }
+    .main_waraper{
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .mathch{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu{
+        background-color: white;
+        border: 1px solid gainsboro;
+        width: auto;
+    }
+    .list{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .mathch{
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+    .text__ariya{
+        text-align: center;
+    }
+    .main_waraper{
+        flex-direction: column;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .menu{
+        background-color: white;
+        border: 1px solid gainsboro;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    }
+   .tab-btn{
+    display: inline-block;
+    text-align: center;
+   }
+   
+    
+}
